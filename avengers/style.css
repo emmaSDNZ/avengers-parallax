@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    height: 7000px;
+
+    background-image: url(./img/clouds2.png), url(./img/capifondo.png),
+    url(./img/asgard.png);
+  background-size: contain, contain, contain;
+  background-position: 0 100vh, 0 480vh, 0 900vh;
+  background-repeat: repeat-x, repeat-x, no-repeat;
+
+
+    padding: 0;
+    margin: 0;
+
+}
+
+.logo{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 110vh;
+}
+
+.scroll-tip{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.ironman-title{
+    font-size: 15em;
+    color: yellow;
+    font-weight: bolder;
+    text-align: center;
+    padding: 100px 0;
+    letter-spacing: -20px;
+}
+.capitan-title{
+    font-size: 9em;
+    color: rgb(0, 136, 255);
+    font-weight: bolder;
+    text-align: center;
+    padding: 400px 0;
+    letter-spacing: -20px;
+}
+
+.ironman-02{
+    position: absolute;
+    top: 2500px;
+}
+
+.shield02{
+    position: absolute;
+    margin-top: -870px;
+    margin-left: 470px;
+}
+
+.rayo-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.rayo {
+    background-color: rgb(250, 250, 79);
+    width: 100%;
+    height: 150vh;
+  }
+
+.thor-title {
+    font-size: 15em;
+    color: rgb(0, 136, 255);
+    font-weight: bolder;
+    text-align: center;
+    padding: 100px 0;
+    letter-spacing: -20px;
+    margin-top: -400px;
+  }
+
+.thor-2{
+    display: flex;
+    margin-top: -400px;
+    margin-left: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.avengers-logo {
+    text-align: center;
+    position: relative;
+    height: 80vh;
+
+    padding-top: 500px;
+}
+ 
+.avengers-logo img {
+    
+    position: relative;
+    width: 80%;
+}
